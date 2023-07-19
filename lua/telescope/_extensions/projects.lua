@@ -160,7 +160,7 @@ local function projects(opts)
 
         map("i", "<c-f>", find_project_files)
         map("i", "<c-b>", browse_project_files)
-        map("i", "<c-d>", delete_project)
+        map("i", "<c-x>", delete_project)
         map("i", "<c-s>", search_in_project_files)
         map("i", "<c-r>", recent_project_files)
         map("i", "<c-w>", change_working_directory)
